@@ -1,0 +1,189 @@
+{
+    "intents": [
+      {"tag": "greeting",
+        "patterns": ["hallo","hai","halo","hei","hi","hy","pagi","morning","siang","afternoon","sore","malam","bro","sis","kawan"],
+        "responses":["Hai! friobot di sini. Mau tau makanan khas daerah mana nih?"],
+        "content":[""]
+      },
+      {"tag": "goodbye",
+        "patterns": ["Dah","Dadah","Bye","Byee","Good bye","Selamat tinggal","Sampai jumpa","Bai","See you"],
+        "responses": ["Bye!","Dadahh!","Good bye!","Dahh","semoga harimu menyenangkan yaa!","Sampai jumpa lagi!","See u! Senang bisa membantu"],
+        "content":[""]
+      },
+      {"tag": "terimakasih",
+        "patterns": ["Thanks","Thank you","Terima kasih","Makasih","Terima kasih banyak"],
+        "responses": ["Dengan senang hati:)"],
+        "content":[""]
+      },
+      {"tag": "khasAceh",
+        "patterns": ["nanggroe aceh darussalam","aceh"],
+        "responses": ["Makanan khas dari daerah Naggroe Aceh Darussalam yaitu : Mie Aceh, Lepat, Meuseukat, Soto Aceh, Ayam Korma dan Korma Kambing."],
+        "content":["aceh","Naggroe Aceh Darussalam"]
+      },
+      {"tag": "khasSumut",
+        "patterns": ["sumatera utara","sumut"],
+        "responses": ["Makanan khas dari daerah Sumatera Utara yaitu :Pelleng, Sambal Tuktuk, Bika Ambon, Dengke Mas na Niura, Itak Pohulpohul dan Mangasik Toba. "],
+        "content":["sumatera utara","sumut"]
+      },
+      {"tag": "khasSumbar",
+        "patterns": ["sumatera barat","sumbar"],
+        "responses": ["Makanan khas dari daerah Sumatera Barat yaitu :Rendang, Dendeng Balado, Satai Padang, Sambal Lado Tanak, Soto Padang dan Ayam Pop."],
+        "content":["Sumatera Barat","sumbar"]
+      },
+      {"tag": "khasSumsel",
+        "patterns": ["sumatera selatan","sumsel"],
+        "responses": ["Makanan khas dari daerah Sumatera Selatan yaitu :Empek-empek, Tekwan, Model, Laksan, Kemplang dan Kue Mentu."],
+        "content":["Sumatera Selatan","sumsel"]
+      },
+      {"tag": "khasRiau",
+        "patterns": ["riau"],
+        "responses": ["Makanan khas dari daerah Riau yaitu :Gulai Belacan, Asap Pedas Baung, Gulai Cipuik, Mie Sagu dan Sop Tunjang."],
+        "content":["Riau"]
+      },
+      {"tag": "khasKepulauanRiau",
+        "patterns": ["kepulauan riau","kepri"],
+        "responses": ["Makanan khas dari daerah Kepulauan Riau yaitu :Gong-gong, Mi Tarempa, Lempuk Durian, Sup Ikan Batam dan Otak-otak."],
+        "content":["Kepulauan Riau","kepri"]
+      },
+      {"tag": "khasJambi",
+        "patterns": ["jambi"],
+        "responses": ["Makanan khas dari daerah Jambi yaitu :Nasi Gemuk, Kue Gandus, Masak Sepit, Gulai Tempoyak dan Gulai Ikan Patin."],
+        "content":["Jambi"]
+      },
+      {"tag": "khasBengkulu",
+        "patterns": ["bengkulu"],
+        "responses": ["Makanan khas dari daerah Bengkulu yaitu :Pendap, Bagar Hiu, Gulai Kembaang, Kue Tat, Tempoyak Ikan Patin dan Rebung Asam Undak Liling."],
+        "content":["Bengkulu"]
+      },
+      {"tag": "khasBangkaBelitung",
+        "patterns": ["bangka belitung","bangka"],
+        "responses": ["Makanan khas dari daerah Bangka Belitung yaitu :Kericu, Pantiau, Lempah, Rusip, Mie Bangka dan Lakso."],
+        "content":["Bangka Belitung","bangka"]
+      },
+      {"tag": "khasLampung",
+        "patterns": ["lampung"],
+        "responses": ["Makanan khas dari daerah Lampung yaitu :Seruit Berkuah, Tempoyak, Geguduh, Gulai Taboh dan Umbu."],
+        "content":["Lampung"]
+      },
+      {"tag": "khasBanten",
+        "patterns": ["banten"],
+        "responses": ["Makanan khas dari daerah Banten yaitu :Satai Bandeng, Rabeg, Angeun Lada, Sate Bebek dan Ketan Bintul."],
+        "content":["Banten"]
+      },
+      {"tag": "khasDkiJakarta",
+        "patterns": ["DKI jakarta","jakarta"],
+        "responses": ["Makanan khas dari daerah DKI Jakarta yaitu :Kerak Telor, Nasi Ulam, Semur Jengkol, Laksa Betawi dan Soto Betawi."],
+        "content":["DKI Jakarta","jakarta"]
+      },
+      {"tag": "khasJawaBarat",
+        "patterns": ["jawa barat","jabar"],
+        "responses": ["Makanan khas dari daerah Jawa Barat yaitu :Tutug Oncom, Karedok, Surabi, Peuyeum dan Lotek."],
+        "content":["Jawa Barat","jabar"]
+      },
+      {"tag": "khasJawaTengah",
+        "patterns": ["jawa tengah","jateng"],
+        "responses": ["Makanan khas dari daerah Jawa Tengah yaitu :Lumpia, Lontong Tuyuhan, Tahu Petis, Getuk dan Nasi Gandul."],
+        "content":["Jawa Tengah","jateng"]
+      },
+      {"tag": "khasJawaTimur",
+        "patterns": ["jawa timur","jatim"],
+        "responses": ["Makanan khas dari daerah Jawa Timur yaitu :Soto Lamongan, Tahu Tek, Rawon, Lontong Balap dan Lodho Ayam."],
+        "content":["Jawa Timur","jatim"]
+      },
+      {"tag": "khasDIYogyakarta",
+        "patterns": ["DIY","yogyakarta","jogjakarta","jogja"],
+        "responses": ["Makanan khas dari daerah DI Yogyakarta yaitu :Gudeg, Sate Klathak, Gatot, Tiwul, Wajik dan Kipo."],
+        "content":["DI Yogyakarta","jogja"]
+      },
+      {"tag": "khasBali",
+        "patterns": ["bali"],
+        "responses": ["Makanan khas dari daerah Bali yaitu :Ayam Betutu, Sate Lilit, Nasi Jinggo, Nasi Campur Bali dan Serombotan."],
+        "content":["Bali"]
+      },
+      {"tag": "khasNtb",
+        "patterns": ["nusa tenggara barat","ntb"],
+        "responses": ["Makanan khas dari daerah Nusa Tenggara Barat yaitu :Ayam Taliwang, Sate Pusut, Beberuq Terong, Sate Bulayak dan Sate Rembige."],
+        "content":["Nusa Tenggara Barat","ntb"]
+      },
+      {"tag": "khasNtt",
+        "patterns": ["nusa tenggara timur","ntt"],
+        "responses": ["Makanan khas dari daerah Nusa Tenggara Timur yaitu :Catemak Jagung, Kolo, Jagung Bose, Sei Daging Sapi, Rumpu Rampe dan Jagung Titi."],
+        "content":["Nusa Tenggara Timur","ntt"]
+      },
+      {"tag": "khasKalbar",
+        "patterns": ["kalimantan barat","kalbar"],
+        "responses": ["Makanan khas dari daerah Kalimantan Barat yaitu :Bubur Pedas Sambas, Kwetiau, Burung Punai dan Lek Tau Suan."],
+        "content":["Kalimantan Barat","kalbar"]
+      },
+      {"tag": "khasKalteng",
+        "patterns": ["kalimantan tengah","kalteng"],
+        "responses": ["Makanan khas dari daerah Kalimantan Tengah yaitu :Juhu Sungkah, Kalumpe, Hintalu Kaluang dan Kenta."],
+        "content":["Kalimantan Tengah","kalteng"]
+      },
+      {"tag": "khasKalsel",
+        "patterns": ["kalimantan selatan","kalsel"],
+        "responses": ["Makanan khas dari daerah Kalimantan Selatan yaitu :Soto Banjar, Ketupat Kandangan, Manday dan Gangan Asam Banjar."],
+        "content":["Kalimantan Selatan","kalsel"]
+      },
+      {"tag": "khasKaltim",
+        "patterns": ["kalimantan timur","kaltim"],
+        "responses": ["Makanan khas dari daerah Kalimantan Timur yaitu :Ayam Cincane, Pisang Gapit dan Gangan Manok."],
+        "content":["Kalimantan Timur","kaltim"]
+      },
+      {"tag": "khasKalimantanUtara",
+        "patterns": ["kalimantan utara","kalut"],
+        "responses": ["Makanan khas dari daerah Kalimantan Utara yaitu :Kepiting Soka, Tumis Kapah, Sate Ikan Pari dan Ikan Asin Richa."],
+        "content":["Kalimantan Utara","kalut"]
+      },
+      {"tag": "khasSulsel",
+        "patterns": ["sulawesi selatan","sulsel"],
+        "responses": ["Makanan khas dari daerah Sulawesi Selatan yaitu :Sup Konro, Kapurung, Coto dan Mie Titi."],
+        "content":["Sulawesi Selatan","sulsel"]
+      },
+      {"tag": "khasSulteng",
+        "patterns": ["sulawesi tengah","sulteng"],
+        "responses": ["Makanan khas dari daerah Sulawesi Tengah yaitu :Sup Ikan Jantung Pisang, Milu Siram, Uta Dada, Uta Kelo dan Onyop."],
+        "content":["Sulawesi Tengah","sulteng"]
+      },
+      {"tag": "khasSulawesiTenggara",
+        "patterns": ["sulawesi tenggara"],
+        "responses": ["Makanan khas dari daerah Sulawesi Tenggara yaitu :Lapa-lapa, Sinonggi, Sate Gogos dan Kabuto."],
+        "content":["Sulawesi Tenggara"]
+      },
+      {"tag": "khasSulut",
+        "patterns": ["sulawesi utara","sulut"],
+        "responses": ["Makanan khas dari daerah Sulawesi Utara yaitu :Tilutuan, Klapertart, Nasi Jaha dan Mujair Bakar Woku."],
+        "content":["Sulawesi Utara","sulut"]
+      },
+      {"tag": "khasSulbar",
+        "patterns": ["sulawesi barat","sulbar"],
+        "responses": ["Makanan khas dari daerah Sulawesi Barat yaitu :Bau Peapi, Golla Kambu, Bikang dan Sokkol Ubi."],
+        "content":["Sulawesi Barat","sulbar"]
+      },
+      {"tag": "khasGorontalo",
+        "patterns": ["gorontalo"],
+        "responses": ["Makanan khas dari daerah Gorontalo yaitu :Binte Biluhuta, Sate Tuna Gorontalo, Tili Aya dan Ayam Iloni."],
+        "content":["Gorontalo"]
+      },
+      {"tag": "khasMaluku",
+        "patterns": ["maluku"],
+        "responses": ["Makanan khas dari daerah Maluku yaitu :Papeda, Nasi Lapola, Sambal Colo-colo dan Kohu-kohu."],
+        "content":["Maluku"]
+      },
+      {"tag": "khasMalukuUtara",
+        "patterns": ["maluku utara"],
+        "responses": ["Makanan khas dari daerah Maluku Utara yaitu :Gohu Ikan, Gatang Kenari, Halua Kenari dan Papeda."],
+        "content":["Maluku Utara"]
+      },
+      {"tag": "khasPapuaBarat",
+        "patterns": ["papua barat"],
+        "responses": ["Makanan khas dari daerah Papua Barat yaitu :Ikan Bakar Manokwari, Kue Lontar, Sate Ulat Sagu dan Aunu Senebre."],
+        "content":["Papua Barat"]
+      },
+      {"tag": "khasPapua",
+        "patterns": ["papua"],
+        "responses": ["Makanan khas dari daerah Papua yaitu :Papeda, Kue Sagu, Ikan Bungkus dan Udang Selingkuh."],
+        "content":["Papua"]
+      }
+    ]
+  }
